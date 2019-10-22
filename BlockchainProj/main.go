@@ -8,6 +8,8 @@ import (
 
 func main() {
 
+	//https://jeiwan.cc/posts/building-blockchain-in-go-part-1/
+
 	bc := functions.NewBlockchain()
 
 	bc.AddBlock("Send 1 BTC to pino paperino")
