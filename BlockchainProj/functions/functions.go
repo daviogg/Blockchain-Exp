@@ -18,7 +18,9 @@ type Blockchain struct {
 	blocks []*Block
 }
 
-//endregion
+func (b Blockchain) GetBlocks() []*Block {
+	return b.blocks
+}
 
 func (b *Block) SetHash() {
 	timestamp := []byte(strconv.FormatInt(b.Timestamp, 10))
