@@ -3,14 +3,13 @@ package main
 import (
 	"fmt"
 
-	functions "./functions"
+	blockchainCore "./blockchainCore"
 )
 
 func main() {
 
 	//https://jeiwan.cc/posts/building-blockchain-in-go-part-1/
-
-	bc := functions.NewBlockchain()
+	bc := blockchainCore.NewBlockchain()
 
 	bc.AddBlock("Send 1 BTC to pino paperino")
 	bc.AddBlock("Send 2 more BTC to pino paperino")
