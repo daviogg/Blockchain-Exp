@@ -1,4 +1,4 @@
-package blockchainCore
+package blockchaincore
 
 import (
 	"bytes"

@@ -3,7 +3,7 @@ package main
 import (
 	"fmt"
 
-	blockchainCore "./blockchainCore"
+	blockchainCore "./blockchaincore"
 )
 
 func main() {
